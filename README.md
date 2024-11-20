@@ -32,3 +32,25 @@ The script analyzes the entered password by:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/Manish041998/Password-Strength-Tester.git
+
+Navigate to the repository directory:
+cd Password-Strength-Tester
+Run the script in PowerShell:
+.\PasswordStrengthTester.ps1
+Option 2: Download the Script
+Download the PasswordStrengthTester.ps1 file from the repository.
+Open a terminal in the script's directory and run:
+.\PasswordStrengthTester.ps1
+Example
+Here’s how the script behaves when executed:
+
+Input:
+Enter a password to test: P@ssw0rd
+Output:
+Password Analysis:
+ - Length: 8 characters (2 points)
+ - Complexity: 3 points (Uppercase, Lowercase, Numbers, Special Characters)
+Password Strength: Medium
+File Contents
+PasswordStrengthTester.ps1: The main PowerShell script that evaluates password strength.
+
